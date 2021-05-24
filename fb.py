@@ -27,7 +27,7 @@ def storedata():
     p = passobj.get()
     print(e)
     print(p)
-    db1()
+    #db1()
 newsizebg = (400,175)
 bg = Image.open("nfb.png")
 bg = bg.resize(newsizebg)
