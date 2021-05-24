@@ -11,10 +11,10 @@ def db1():
     global e,p
     import mysql.connector
     mydb = mysql.connector.connect(
-        host = "localhost",
-        username = "root",
-        password = "",
-        database = "FACEBOOK2"
+        #host = "localhost",
+        #username = "root",
+        #password = "",
+        #database = "FACEBOOK2"
         )
     mycursor = mydb.cursor()
     sql = "insert into FACEBOOK3 (EMAIL1, PASS1) values (%s,%s)"
